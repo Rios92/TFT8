@@ -2646,11 +2646,11 @@ class CfgVehicles {
 
     };
 
-    class TA_I_M1A1SA_WNT : CUP_B_Challenger2_Woodland_BAF_OCimport_02 {
+    class TA_I_CHALLENGER2_WNT : CUP_B_Challenger2_Woodland_BAF_OCimport_02 {
         author = "WO1 Rios";
         scope = 2;
         scopeCurator = 2;
-        displayName = "M1A1SA";
+        displayName = "Challenger 2";
         side = 2;
         faction = "TA_I_WNT";
         crew = "TA_I_CREWMAN_WNT";
