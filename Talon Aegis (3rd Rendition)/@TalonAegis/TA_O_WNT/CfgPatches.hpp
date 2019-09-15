@@ -82,8 +82,8 @@ class CfgPatches {
             "TA_O_MK19_WNT",
             "TA_O_TOW_WNT",
             "TA_O_FIM92F_WNT",
-            "TA_O_ASSMACHGUN_WNT"
-			"TA_O_ASSWEAPOPMOTAR_WNT"
+            "TA_O_ASSMACHGUN_WNT",
+			"TA_O_ASSWEAPOPMOTAR_WNT",
 			"TA_O_WEAPOPMOTAR_WNT"
         };
         weapons[] = {};
