@@ -1,5 +1,5 @@
-#define COMPONENT taodes
-#define COMPONENT_BEAUTIFIED taodes
+#define COMPONENT TAODES
+#define COMPONENT_BEAUTIFIED TAODES
 #include "\x\\addons\main\script_mod.hpp"
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE

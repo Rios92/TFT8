@@ -1,5 +1,5 @@
-#define COMPONENT taowdl
-#define COMPONENT_BEAUTIFIED taowdl
+#define COMPONENT TAOWDL
+#define COMPONENT_BEAUTIFIED TAOWDL
 #include "\x\\addons\main\script_mod.hpp"
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE

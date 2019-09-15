@@ -101,9 +101,9 @@ class CfgVehicles {
     class B_recon_LAT_F_OCimport_01 : B_recon_LAT_F { scope = 0; class EventHandlers; };
     class B_recon_LAT_F_OCimport_02 : B_recon_LAT_F_OCimport_01 { class EventHandlers; };
 
-    class B_Soldier_TL_F;
-    class B_Soldier_TL_F_OCimport_01 : B_Soldier_TL_F { scope = 0; class EventHandlers; };
-    class B_Soldier_TL_F_OCimport_02 : B_Soldier_TL_F_OCimport_01 { class EventHandlers; };
+    class B_Soldier_SL_F;
+    class B_Soldier_SL_F_OCimport_01 : B_Soldier_SL_F { scope = 0; class EventHandlers; };
+    class B_Soldier_SL_F_OCimport_02 : B_Soldier_SL_F_OCimport_01 { class EventHandlers; };
 
     class B_support_GMG_F;
     class B_support_GMG_F_OCimport_01 : B_support_GMG_F { scope = 0; class EventHandlers; };
@@ -1351,7 +1351,7 @@ class CfgVehicles {
 
     };
 
-    class TA_I_AMACHGUN_WDL : B_soldier_AAR_F_OCimport_02 {
+    class TA_I_ASSMACHGUN_WDL : B_soldier_AAR_F_OCimport_02 {
         author = "WO1 Rios";
         scope = 2;
         scopeCurator = 2;
@@ -1632,7 +1632,7 @@ class CfgVehicles {
 
     };
 
-    class TA_I_RTO_WDL : B_Soldier_TL_F_OCimport_02 {
+    class TA_I_RTO_WDL : B_Soldier_SL_F_OCimport_02 {
         author = "WO1 Rios";
         scope = 2;
         scopeCurator = 2;

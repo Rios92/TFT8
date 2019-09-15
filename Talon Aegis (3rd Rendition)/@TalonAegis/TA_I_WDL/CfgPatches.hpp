@@ -23,7 +23,7 @@ class CfgPatches {
             "TA_I_HELICREW_WDL",
             "TA_I_HELIPILOT_WDL",
             "TA_I_MACHGUN_WDL",
-            "TA_I_AMACHGUN_WDL",
+            "TA_I_ASSMACHGUN_WDL",
             "TA_I_UNARMED_WDL",
             "TA_I_SNIPER_WDL",
             "TA_I_CREWMAN_WDL",

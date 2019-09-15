@@ -101,9 +101,9 @@ class CfgVehicles {
     class B_recon_LAT_F_OCimport_01 : B_recon_LAT_F { scope = 0; class EventHandlers; };
     class B_recon_LAT_F_OCimport_02 : B_recon_LAT_F_OCimport_01 { class EventHandlers; };
 
-    class B_Soldier_TL_F;
-    class B_Soldier_TL_F_OCimport_01 : B_Soldier_TL_F { scope = 0; class EventHandlers; };
-    class B_Soldier_TL_F_OCimport_02 : B_Soldier_TL_F_OCimport_01 { class EventHandlers; };
+    class B_Soldier_SL_F;
+    class B_Soldier_SL_F_OCimport_01 : B_Soldier_SL_F { scope = 0; class EventHandlers; };
+    class B_Soldier_SL_F_OCimport_02 : B_Soldier_SL_F_OCimport_01 { class EventHandlers; };
 
     class B_support_GMG_F;
     class B_support_GMG_F_OCimport_01 : B_support_GMG_F { scope = 0; class EventHandlers; };
@@ -492,8 +492,11 @@ class CfgVehicles {
 
         magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
+		
+		vehicleClass = "MenSupport";
 
         ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m16a4_carryhandle","rhsusf_acc_SF3P556","rhsusf_acc_M952V","",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"ACE_fieldDressing",10},{"ACE_morphine",2},{"ACE_EarPlugs",1},{"ACE_epinephrine",2},{"ACE_tourniquet",4},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"AUR_Rappel_Gear",1},{"ACE_salineIV_500",1},{"ACE_EntrenchingTool",1},{"adv_aceSplint_splint",4},{"Chemlight_blue",1,1}}},{"CFP_ITV_Rifleman",{{"AUR_Rappel_Rope",3},{"MiniGrenade",2,1},{"rhs_mag_an_m14_th3",2,1},{"rhs_mag_m7a3_cs",1,1},{"rhs_mag_an_m8hc",3,1},{"rhs_mag_m18_green",1,1},{"rhs_mag_30Rnd_556x45_M855A1_PMAG",7,30}}},{},"CFP_PASGTHelmet_M811","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+		
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1351,7 +1354,7 @@ class CfgVehicles {
 
     };
 
-    class TA_O_AMACHGUN_WDL : B_soldier_AAR_F_OCimport_02 {
+    class TA_O_ASSMACHGUN_WDL : B_soldier_AAR_F_OCimport_02 {
         author = "WO1 Rios";
         scope = 2;
         scopeCurator = 2;
@@ -1632,7 +1635,7 @@ class CfgVehicles {
 
     };
 
-    class TA_O_RTO_WDL : B_Soldier_TL_F_OCimport_02 {
+    class TA_O_RTO_WDL : B_Soldier_SL_F_OCimport_02 {
         author = "WO1 Rios";
         scope = 2;
         scopeCurator = 2;
@@ -1654,6 +1657,8 @@ class CfgVehicles {
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
 
         backpack = "B_RadioBag_01_wdl_F";
+		
+		vehicleClass = "MenSupport";
 
         ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m16a4_carryhandle","rhsusf_acc_SF3P556","rhsusf_acc_M952V","",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"ACE_fieldDressing",10},{"ACE_morphine",2},{"ACE_EarPlugs",1},{"ACE_epinephrine",2},{"ACE_tourniquet",4},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"AUR_Rappel_Gear",1},{"ACE_salineIV_500",1},{"ACE_EntrenchingTool",1},{"adv_aceSplint_splint",4},{"Chemlight_blue",1,1}}},{"CFP_ITV_Rifleman",{{"AUR_Rappel_Rope",3},{"MiniGrenade",2,1},{"rhs_mag_an_m14_th3",2,1},{"rhs_mag_m7a3_cs",1,1},{"rhs_mag_an_m8hc",3,1},{"rhs_mag_m18_green",1,1},{"rhs_mag_30Rnd_556x45_M855A1_PMAG",7,30}}},{"B_RadioBag_01_wdl_F",{}},"CFP_PASGTHelmet_M811","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1695,6 +1700,8 @@ class CfgVehicles {
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
 
         backpack = "rhs_Tow_Gun_Bag";
+		
+		vehicleClass = "MenSupport";
 
         ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m16a4_carryhandle","rhsusf_acc_SF3P556","rhsusf_acc_M952V","",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"ACE_fieldDressing",10},{"ACE_morphine",2},{"ACE_EarPlugs",1},{"ACE_epinephrine",2},{"ACE_tourniquet",4},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"AUR_Rappel_Gear",1},{"ACE_salineIV_500",1},{"ACE_EntrenchingTool",1},{"adv_aceSplint_splint",4},{"Chemlight_blue",1,1}}},{"CFP_ITV_Rifleman",{{"AUR_Rappel_Rope",3},{"MiniGrenade",2,1},{"rhs_mag_an_m14_th3",2,1},{"rhs_mag_m7a3_cs",1,1},{"rhs_mag_an_m8hc",3,1},{"rhs_mag_m18_green",1,1},{"rhs_mag_30Rnd_556x45_M855A1_PMAG",7,30}}},{"rhs_Tow_Gun_Bag",{}},"CFP_PASGTHelmet_M811","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1761,6 +1768,8 @@ class CfgVehicles {
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
 
         backpack = "RHS_M2_Tripod_Bag";
+		
+		vehicleClass = "MenSupport";
 
         ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m16a4_carryhandle","rhsusf_acc_SF3P556","rhsusf_acc_M952V","",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"ACE_fieldDressing",10},{"ACE_morphine",2},{"ACE_EarPlugs",1},{"ACE_epinephrine",2},{"ACE_tourniquet",4},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"AUR_Rappel_Gear",1},{"ACE_salineIV_500",1},{"ACE_EntrenchingTool",1},{"adv_aceSplint_splint",4},{"Chemlight_blue",1,1}}},{"CFP_ITV_Rifleman",{{"AUR_Rappel_Rope",3},{"MiniGrenade",2,1},{"rhs_mag_an_m14_th3",2,1},{"rhs_mag_m7a3_cs",1,1},{"rhs_mag_an_m8hc",3,1},{"rhs_mag_m18_green",1,1},{"rhs_mag_30Rnd_556x45_M855A1_PMAG",7,30}}},{"RHS_M2_Tripod_Bag",{}},"CFP_PASGTHelmet_M811","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1802,6 +1811,8 @@ class CfgVehicles {
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
 
         backpack = "rhs_TOW_Tripod_Bag";
+		
+		vehicleClass = "MenSupport";
 
         ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m16a4_carryhandle","rhsusf_acc_SF3P556","rhsusf_acc_M952V","",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"ACE_fieldDressing",10},{"ACE_morphine",2},{"ACE_EarPlugs",1},{"ACE_epinephrine",2},{"ACE_tourniquet",4},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"AUR_Rappel_Gear",1},{"ACE_salineIV_500",1},{"ACE_EntrenchingTool",1},{"adv_aceSplint_splint",4},{"Chemlight_blue",1,1}}},{"CFP_ITV_Rifleman",{{"AUR_Rappel_Rope",3},{"MiniGrenade",2,1},{"rhs_mag_an_m14_th3",2,1},{"rhs_mag_m7a3_cs",1,1},{"rhs_mag_an_m8hc",3,1},{"rhs_mag_m18_green",1,1},{"rhs_mag_30Rnd_556x45_M855A1_PMAG",7,30}}},{"rhs_TOW_Tripod_Bag",{}},"CFP_PASGTHelmet_M811","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1843,6 +1854,8 @@ class CfgVehicles {
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
 
         backpack = "rhs_M252_Gun_Bag";
+		
+		vehicleClass = "MenSupport";
 
         ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m16a4_carryhandle","rhsusf_acc_SF3P556","rhsusf_acc_M952V","",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"ACE_fieldDressing",10},{"ACE_morphine",2},{"ACE_EarPlugs",1},{"ACE_epinephrine",2},{"ACE_tourniquet",4},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"AUR_Rappel_Gear",1},{"ACE_salineIV_500",1},{"ACE_EntrenchingTool",1},{"adv_aceSplint_splint",4},{"Chemlight_blue",1,1}}},{"CFP_ITV_Rifleman",{{"AUR_Rappel_Rope",3},{"MiniGrenade",2,1},{"rhs_mag_an_m14_th3",2,1},{"rhs_mag_m7a3_cs",1,1},{"rhs_mag_an_m8hc",3,1},{"rhs_mag_m18_green",1,1},{"rhs_mag_30Rnd_556x45_M855A1_PMAG",7,30}}},{"rhs_M252_Gun_Bag",{}},"CFP_PASGTHelmet_M811","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1913,6 +1926,8 @@ class CfgVehicles {
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
 
         backpack = "rhs_M252_Bipod_Bag";
+		
+		vehicleClass = "MenSupport";
 
         ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m16a4_carryhandle","rhsusf_acc_SF3P556","rhsusf_acc_M952V","",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"ACE_fieldDressing",10},{"ACE_morphine",2},{"ACE_EarPlugs",1},{"ACE_epinephrine",2},{"ACE_tourniquet",4},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"AUR_Rappel_Gear",1},{"ACE_salineIV_500",1},{"ACE_EntrenchingTool",1},{"adv_aceSplint_splint",4},{"Chemlight_blue",1,1}}},{"CFP_ITV_Rifleman",{{"AUR_Rappel_Rope",3},{"MiniGrenade",2,1},{"rhs_mag_an_m14_th3",2,1},{"rhs_mag_m7a3_cs",1,1},{"rhs_mag_an_m8hc",3,1},{"rhs_mag_m18_green",1,1},{"rhs_mag_30Rnd_556x45_M855A1_PMAG",7,30}}},{"rhs_M252_Bipod_Bag",{}},"CFP_PASGTHelmet_M811","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -3031,6 +3046,7 @@ class CfgVehicles {
         faction = "TA_O_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
+		
 
         uniformClass = "CFP_U_FieldUniform_M81";
 
@@ -3044,6 +3060,8 @@ class CfgVehicles {
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG"};
 
         backpack = "RHS_M2_Gun_Bag";
+		
+		vehicleClass = "MenSupport";
 
         ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m16a4_carryhandle","rhsusf_acc_SF3P556","rhsusf_acc_M952V","",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"ACE_fieldDressing",10},{"ACE_morphine",2},{"ACE_EarPlugs",1},{"ACE_epinephrine",2},{"ACE_tourniquet",4},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"AUR_Rappel_Gear",1},{"ACE_salineIV_500",1},{"ACE_EntrenchingTool",1},{"adv_aceSplint_splint",4},{"Chemlight_blue",1,1}}},{"CFP_ITV_Rifleman",{{"AUR_Rappel_Rope",3},{"MiniGrenade",2,1},{"rhs_mag_an_m14_th3",2,1},{"rhs_mag_m7a3_cs",1,1},{"rhs_mag_an_m8hc",3,1},{"rhs_mag_m18_green",1,1},{"rhs_mag_30Rnd_556x45_M855A1_PMAG",7,30}}},{"RHS_M2_Gun_Bag",{}},"CFP_PASGTHelmet_M811","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 

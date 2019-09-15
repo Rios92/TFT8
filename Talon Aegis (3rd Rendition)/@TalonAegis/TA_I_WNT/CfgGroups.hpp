@@ -2153,7 +2153,7 @@ class CfgGroups {
                         position[] = {25,-25,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "TA_I_AMACHGUN_WNT";
+                        vehicle = "TA_I_ASSMACHGUN_WNT";
                     };
                     class Unit10 {
                         position[] = {-25,-25,0};

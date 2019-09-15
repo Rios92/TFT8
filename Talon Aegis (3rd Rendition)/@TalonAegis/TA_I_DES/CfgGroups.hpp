@@ -507,7 +507,7 @@ class CfgGroups {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "TA_I_AMACHGUN_DES";
+                        vehicle = "TA_I_ASSMACHGUN_DES";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
@@ -552,7 +552,7 @@ class CfgGroups {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "TA_I_AMACHGUN_DES";
+                        vehicle = "TA_I_ASSMACHGUN_DES";
                     };
                 };
 
@@ -1976,7 +1976,7 @@ class CfgGroups {
                         position[] = {25,-25,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "TA_I_AMACHGUN_DES";
+                        vehicle = "TA_I_ASSMACHGUN_DES";
                     };
                     class Unit10 {
                         position[] = {-25,-25,0};
