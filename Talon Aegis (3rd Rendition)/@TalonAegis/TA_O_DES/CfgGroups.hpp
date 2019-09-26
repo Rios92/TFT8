@@ -77,6 +77,18 @@ class CfgGroups {
                         side = 0;
                         vehicle = "TA_O_RIFLEMAN_DES";
                     };
+					class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "TA_O_RIFLEMAN_DES";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "TA_O_RIFLEMAN_DES";
+                    };
                 };
 
                 class TA_O_ASSAULTSQUAD_DES {
@@ -411,22 +423,16 @@ class CfgGroups {
                         position[] = {5,-5,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "TA_O_RTO_DES";
+                        vehicle = "TA_O_ATSPECIALIST_DES";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "TA_O_ATSPECIALIST_DES";
+                        vehicle = "TA_O_ATRIFLEMAN_DES";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "TA_O_ATRIFLEMAN_DES";
-                    };
-                    class Unit4 {
-                        position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "TA_O_ATRIFLEMAN_DES";
@@ -665,6 +671,18 @@ class CfgGroups {
                         side = 0;
                         vehicle = "TA_O_SCOUT_DES";
                     };
+					class Unit7 {
+                        position[] = {-10,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "TA_O_SCOUT_DES";
+                    };
+                    class Unit8 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "TA_O_SCOUT_DES";
+                    };
                 };
 
                 class TA_O_DMTEAM_DES {
@@ -798,6 +816,18 @@ class CfgGroups {
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "TA_O_CBRNRIFLEMAN_DES";
+                    };
+					class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "TA_O_CBRNRIFLEMAN_DES";
+                    };
+                    class Unit7 {
+                        position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "TA_O_CBRNRIFLEMAN_DES";

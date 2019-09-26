@@ -4,7 +4,7 @@ class CfgPatches {
             "TA_I_RIFLEMAN_DES",
             "TA_I_ATRIFLEMAN_DES",
             "TA_I_GRENADIER_DES",
-            "TA_I_AUTORIFLE_MAN",
+            "TA_I_AUTORIFLEMAN_DES",
             "TA_I_BREACHER_DES",
             "TA_I_ATSPECIALIST_DES",
             "TA_I_AASPECIALIST_DES",
@@ -77,7 +77,16 @@ class CfgPatches {
             "TA_I_TOW_DES",
             "TA_I_FIM92F_DES",
             "TA_I_M252_DES",
-            "TA_I_M119A2_DES"
+            "TA_I_M119A2_DES",
+			"TA_I_AMMOBOX_DES",
+			"TA_I_EXPLOSIVESBOX_DES",
+			"TA_I_NADEBOX_DES",
+			"TA_I_WEAPBOX_DES",
+			"TA_I_LAUNCHBOX_DES",
+			"TA_I_UNIBOX_DES",
+			"TA_I_SUPPBOX_DES",
+			"TA_I_SUPPLYBOX_DES",
+			"TA_I_AUXBOX_DES"
         };
         weapons[] = {};
         requiredVersion = 1.62;

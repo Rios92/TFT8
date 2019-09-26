@@ -8,7 +8,7 @@ class CfgPatches {
             "TA_O_AUTORIFLEMAN_WDL",
             "TA_O_PARATROOPER_WDL",
             "TA_O_MARKSMAN_WDL",
-            "TA_O_HVYMARKSMAN_WDL",
+            "TA_O_HMARKSMAN_WDL",
             "TA_O_AMMARKSMAN_WDL",
             "TA_O_MEDIC_WDL",
             "TA_O_ENGINEER_WDL",
@@ -75,7 +75,16 @@ class CfgPatches {
             "TA_O_FIM92_WDL",
             "TA_O_M60A3TTS_WDL",
             "TA_O_WEAPOPMG_WDL",
-            "TA_O_M252_WDL"
+            "TA_O_M252_WDL",
+			"TA_O_AMMOBOX_WDL",
+			"TA_O_EXPLOSIVESBOX_WDL",
+			"TA_O_NADEBOX_WDL",
+			"TA_O_WEAPBOX_WDL",
+			"TA_O_LAUNCHBOX_WDL",
+			"TA_O_UNIBOX_WDL",
+			"TA_O_SUPPBOX_WDL",
+			"TA_O_SUPPLYBOX_WDL",
+			"TA_O_AUXBOX_WDL"
         };
         weapons[] = {};
         requiredVersion = 1.62;

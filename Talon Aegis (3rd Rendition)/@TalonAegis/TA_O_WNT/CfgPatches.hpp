@@ -84,7 +84,16 @@ class CfgPatches {
             "TA_O_FIM92F_WNT",
             "TA_O_ASSMACHGUN_WNT",
 			"TA_O_ASSWEAPOPMOTAR_WNT",
-			"TA_O_WEAPOPMOTAR_WNT"
+			"TA_O_WEAPOPMOTAR_WNT",
+			"TA_O_AMMOBOX_WNT",
+			"TA_O_EXPLOSIVESBOX_WNT",
+			"TA_O_NADEBOX_WNT",
+			"TA_O_WEAPBOX_WNT",
+			"TA_O_LAUNCHBOX_WNT",
+			"TA_O_UNIBOX_WNT",
+			"TA_O_SUPPBOX_WNT",
+			"TA_O_SUPPLYBOX_WNT",
+			"TA_O_AUXBOX_WNT"
         };
         weapons[] = {};
         requiredVersion = 1.62;

@@ -78,7 +78,7 @@ class CfgGroups {
                         vehicle = "TA_I_RIFLEMAN_WDL";
                     };
 					class Unit6 {
-                        position[] = {15,-15,0};
+                        position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "TA_I_RIFLEMAN_WDL";
